@@ -69,13 +69,13 @@ Header
 
 .header {
   position: relative;
-  min-height: 30%;
+  min-height: 20%;
   overflow-x: hidden;
 }
 
 .top-nav {
   background-color: var(--green);
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: var(--white);
 }
 
@@ -86,7 +86,7 @@ Header
 
 .top-nav a {
   color: var(--white);
-  padding: 0 0.5rem;
+  padding: 0 0.8rem;
 }
 .header p{
   text-align: center;
@@ -123,13 +123,14 @@ Navigation
   color: var(--green);
 }
 
-.hamburger {
-  /*display: none; */
+/*.hamburger {
+  /*display: none;
   font-size: 2.3rem;
   text-align: center;
   color: var(--black);
-  /*cursor: pointer; */
-}
+  cursor: pointer; 
+} */
+
       /*
       =================
       CAROUSEL AND CARD STYLE
@@ -159,6 +160,7 @@ Home Slider
   .home .slide-container{
       display: none;
   }
+  
   .home .slide-container.active{
   display: block;
   }
@@ -173,7 +175,7 @@ Home Slider
 }*/
   .home #prev,.home #next{
       position: absolute;
-      top: 55%;
+      top: 75%;
       transform: translateY(-50%);
       z-index: 100;
       height: 5rem;
@@ -181,7 +183,7 @@ Home Slider
       line-height: 5.5rem;
       font-size: 2.8rem;
       color: #e9d7d3;
-      background-color:#4d0857; /*#0c383a; ;/*#a08301;/* #b888c2; #2980b9;  #b145f0; */ 
+      background-color:#914e21; /*#4d0857; #0c383a; ;/*#a08301;/* #b888c2; #2980b9;  #b145f0; */ 
       border:.1rem thin #a08301;
       border-radius: 50%;
       text-align: center;
@@ -245,7 +247,7 @@ Item Display
   .item img {
       /*width: 100%;*/
       /*height: 300px;*/
-      width: 32rem;
+      width: 22rem;
       height: 50%;
       margin: auto; 
       object-fit: cover;
@@ -467,6 +469,15 @@ Item Display
   .banner {
    /* padding: 8rem 5rem;*/
    padding: 3rem 1rem;
+  }
+    .banner .trend,
+  .banner p {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+  }
+   .banner h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
   }
   
   .banner .right img {
