@@ -173,7 +173,7 @@ Home Slider
 }*/
   .home #prev,.home #next{
       position: absolute;
-      top: 150%;
+      top: 50%;
       transform: translateY(-50%);
       z-index: 100;
       height: 5rem;
@@ -448,7 +448,7 @@ Item Display
   .banner {
     display: grid;
     grid-template-columns: 1fr;
-    height: 38vh;
+    height: 23vh;
   }
   .banner .right {
     flex: 0 0 50%;
@@ -470,7 +470,7 @@ Item Display
   
   .banner .right img {
     /*width: 45rem;*/
-    width: 30rem;
+    width: 18rem;
     left: 80%;
     
     
