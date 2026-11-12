@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>GradGiftsGh Website</title>
+  </head>
+   <body>
+    <img class="bg-image" src="./images/background 5.jpg">
+    <!-- Header -->
+    <header class="header" id="header">
+      <!-- Top Nav -->
+      <div class="top-nav">
+        <div class="container d-flex">
+          <p>Order Online Or Call Us: +233 533384023</p>
+          <ul class="d-flex">
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--Lower Nav-->
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+        <a href="/" class="logo"><h1>GradGiftsGh</h1></a >
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#Shop" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Order" class="nav-link">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#banner" class="nav-link">Contact</a>
+            </li> 
+          </ul>
+         </div>
+           <div class="hamburger">
+            <i>
+              <b><p style="background-color: #2d4d04; color:#a05b01; ">
+                 Welcome to Our Self Service Store.</p></b></i>
+          </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p style="font-size: 1.7rem; background-color: rgba(240, 248, 255, 0.582);"> With Graduation just around the corner, we're here
+                 to help you Stand Out and make preparation way easier! </p>
+       </header>
+
+       <section class="home" id="home">
+        <div class="straight-line">
+             <div id="prev" onclick="prev();">-</div>
+             <div id="next" onclick="next();">+</div>
+        </div>
+        <h1 style="text-align: center; background-color: #2d4d04; color:#a05b01;">Graduation Gift Store</h1>
+        <br>
+      <div class="title">
+        <h3>Pick Your Combo</h3>
+       <p>Packages carefully curated just for you. </p>
+        <br>
+        <i><p  style="background-color: rgba(240, 248, 255, 0.582);"> All Gifts would be made available at the graduation grounds ready 
+          for you to present to your Graduate! We handle everything, so you 
+        don't have to stress.</p></i>
+        </div>
+      <div class="slide-container active" id="slide1">
+        <div class="slide">
+            <div class="container">
+              <h3 style="text-align: center;" id="Shop">Celebratory Gifts</h3>
+                  <div class="item">
+                    <img src="./images/bobo balloon.jpg" alt="Item 1">
+                    <h3>Balloon Bouquet</h3>
+                    <p>(with flowers and snacks)</p>
+                    <p>Price: GHS 250</p>
+                    <button id="added" onclick="addToCart('Balloon Bouquet', 250)">Add to Cart</button>
+                </div>
+
+                <div class="item">
+                    <img src="./images/balloon hamper2.jpg" alt="Item 2">
+                    <h3>Balloon Hamper</h3>
+                    <p>(with Champagne and snack)</p>
+                    <p>Price: GHS 350</p>
+                    <button id="added" onclick="addToCart('Balloon Hamper', 350)">Add to Cart</button>
+                </div>
+
+                <div class="item">
+                    <img src="./images/fBouquet.jpg" alt="Item 3">
+                    <h3> Flower Bouquet</h3>
+                    <p>Price: GHS 250</p>
+                    <button id="added" onclick="addToCart('Flower Bouquet', 250)">Add to Cart</button>
+                </div>
+                
+                <div class="item">
+                    <img src="./images/card.jpg" alt="Item 4">
+                    <h3> Congratulations Card</h3>
+                    <p>(With a personal message)</p>
+                    <p>Price: GHS 75</p>
+                    <button id="added" onclick="addToCart('Card', 75)">Add to Cart</button>
+                </div>
+                
+                <div class="item">
+                    <img src="./images/grad cap1.jpg" alt="Item 5">
+                    <h3> Custom Grad Cap</h3>
+                    <p>(Grad Cap and Customization)</p>
+                    <p>Price: GHS 270</p>
+                    <button id="added" onclick="addToCart('Grad Cap', 270)">Add to Cart</button>
+                  </div>
+
+                 <div class="item">
+                    <img src="./images/wrapped balloon.jpg" alt="Item 5">
+                    <h3>Balloon Bouquet Gift</h3>
+                    <p>(Wrapped without box)</p>
+                    <p>Price: GHS 160</p>
+                    <button id="added" onclick="addToCart('Wrapped Balloon', 160)">Add to Cart</button>
+                </div> 
+                 <div class="item">
+                    <img src="./images/party popper.jpg" alt="Item 5">
+                    <h3>Party Popper</h3>
+                    <p>Price: GHS 50</p>
+                    <button id="added" onclick="addToCart('Party Popper', 50)">Add to Cart</button>
+                </div> 
+            </div>
+        </div>
+    </div> 
+     <div class="slide-container" id="slide2">
+        <div class="slide">
+            <div class="container">
+              <h3 style="text-align: center;">Sweet Gifts</h3>
+                <div class="item">
+                    <img src="./images/cake.jpg" alt="Item 1">
+                    <h3>Cake</h3>
+                    <p>Price: GHS 350</p>
+                    <button id="added" onclick="addToCart('Cake', 350)">Add to Cart</button>
+                </div>
+
+                <div class="item">
+                    <img src="./images/chocolate.jpg" alt="Item 2">
+                    <h3>Chocolate Bouquet</h3>
+                    <p>Price: GHS 300</p>
+                    <button id="added" onclick="addToCart('Chocolate Bouquet', 300)">Add to Cart</button>
+                </div>
+
+                <div class="item">
+                    <img src="./images/champagne.jpg" alt="Item 3">
+                    <h3>Champagne Gift</h3>
+                    <p>Price: GHS 100</p>
+                    <button id="added" onclick="addToCart('Champagne', 100)">Add to Cart</button>
+                </div>
+                
+                <div class="item">
+                    <img src="./images/bouquet hamper 1.jpg" alt="Item 4">
+                    <h3>Bouquet Hamper</h3>
+                    <p>(variety of items)</p>
+                    <p>Price: GHS 400</p>
+                    <button id="added" onclick="addToCart('Bouquet Hamper', 400)">Add to Cart</button>
+                </div>
+            </div>
+        </div> 
+    </div> 
+    <div class="slide-container" id="slide3">
+        <div class="slide">
+            <div class="container">
+              <h3 style="text-align: center;">Thoughtful Gifts</h3>
+                <div class="item">
+                    <img src="./images/Money Box 1.jpg" alt="Item 1">
+                    <h3>Money Box</h3>
+                    <p>Price: GHS 220</p>
+                    <button id="added" onclick="addToCart('Money Box', 220)">Add to Cart</button>
+                </div>
+
+                <div class="item">
+                    <img src="./images/dummy cheque.jpg" alt="Item 2">
+                    <h3>Money Cheques</h3>
+                    <p>Price: GHS 250</p>
+                    <button id="added" onclick="addToCart('Money Cheques', 250)">Add to Cart</button>
+                </div>
+
+              <!--  <div class="item">
+                    <img src="https://via.placeholder.com/300x180" alt="Item 3">
+                    <h3>3Item 3</h3>
+                    <p>Price: GHS 80</p>
+                    <button onclick="addToCart('3Item 3', 80)">Add to Cart</button>
+                </div>
+                
+                <div class="item">
+                    <img src="https://via.placeholder.com/300x180" alt="Item 4">
+                    <h3>3Item 4</h3>
+                    <p>Price: GHS 20</p>
+                    <button onclick="addToCart('3Item 4', 20)">Add to Cart</button>
+                </div>
+                
+                <div class="item">
+                    <img src="https://via.placeholder.com/300x180" alt="Item 5">
+                    <h3>3Item 5</h3>
+                    <p>Price: GHS 70</p>
+                    <button onclick="addToCart('3Item 5', 70)">Add to Cart</button>
+                </div>-->
+            </div>
+        </div>
+    </div>
+       
+</section>
+
+       <script>
+        let slides = document.querySelectorAll('.slide-container');
+        let index = 0;
+
+        function next(){
+        slides[index].classList.remove('active');
+        index = (index + 1) % slides.length;
+        slides[index].classList.add('active');
+            }
+
+        function prev(){
+        slides[index].classList.remove('active');
+        index = (index - 1 + slides.length) % slides.length;
+        slides[index].classList.add('active');
+            }
+
+        /*function added() {
+        if (cart.length === 0) {
+            alert("Your cart is empty!");
+        } else {
+            alert("Order placed successfully!");
+        }
+        }s*/
+      </script>
+
+      <br>
+      <br>
+     
+      <!-- Friends Section -->
+                <div class="title">
+                  <h1 style="font-size: 1.3rem ; color:#b145f0; ">
+                    Celebrate Friendships
+                  </h1>
+                  <p  style="background-color: rgba(240, 248, 255, 0.582);">Show your amazing friends how much you love 
+                    and appreciate them for being a part of your journey!</p>
+                    </div>
+                 <div class="friends">
+                <div class="item">
+                    <img src="./images/Scrunchies.jpg" alt="Item 1">
+                    <h3> Scrunchies </h3>
+                    <p>(3 pieces)</p>
+                    <p>Price: GHS 30</p>
+                    <button onclick="addToCart('Scrunchies', 30)">Add to Cart</button>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Thank you card.jpg" alt="Item 2">
+                    <h3>Customised Card</h3>
+                    <p>Price: GHS 75</p>
+                    <button onclick="addToCart('Friend Card', 75)">Add to Cart</button>
+                </div>
+              </div>
+
+
+
+               <!--Cart-->
+<div id="cart">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <h3>Total: GHS <span id="total">0</span></h3>
+    <button id="checkout" onclick="checkout()">Checkout</button>
+</div>
+
+<script>
+    let cart = [];
+    let total = 0;
+
+    function addToCart(name, price) {
+        cart.push({ name, price });
+        total += price;
+        updateCart();
+    }
+
+    function updateCart() {
+        const cartDiv = document.getElementById("cart-items");
+        cartDiv.innerHTML = "";
+
+        cart.forEach(item => {
+            const div = document.createElement("div");
+            div.textContent = `${item.name} - GHS ${item.price}`;
+            cartDiv.appendChild(div);
+        });
+
+        document.getElementById("total").textContent = total;
+    }
+
+    function checkout() {
+        if (cart.length === 0) {
+            alert("Your cart is empty!");
+        } else {
+            alert("Order successful!");
+            alert("Kindly fill the Forms below, Save it with the Print option and Send to us on Whatsapp. Thank You. ");
+        }
+    }
+</script>       <!--endCart-->
+            <br>
+            <br>
+            <br>
+
+         <!--orderForm -->
+     <div class="order" id="Order">
+            <h2><span>Delivery</span>Form</h2>
+            <p style="background-color: rgba(240, 248, 255, 0.582); text-align: center;">
+              Please fill out the document below to finalize your order</p>
+
+        <div class="order_main">
+
+            <form action="#">
+
+                <div class="input">
+                    <p> Your Name</p>
+                    <input type="text" placeholder="you name">
+                </div>
+
+                <div class="input">
+                    <p> Call Number</p>
+                    <input placeholder="you number">
+                </div>
+
+                <div class="input">
+                    <p>Email</p>
+                    <input type="email" placeholder="you email">
+                </div>
+
+                <!--<div class="input">
+                    <p>How Much</p>
+                    <input type="number" placeholder="how many order">
+                </div>-->
+
+                <div class="input">
+                    <p>School</p>
+                    <input placeholder="your school ...Garden City/Kstu/Other">
+                </div>
+
+                <div class="input">
+                    <p>Graduation Date</p>
+                    <input type="date" placeholder="you Address">
+                </div>
+
+                <div class="input">
+                    <p>Morning/Afternoon Session</p>
+                    <input placeholder="your session">
+                </div>
+                <div class="input">
+                    <p>Name to be placed on Order</p>
+                    <input placeholder="name">
+                </div>
+                <div class="input">
+                    <p>Gender of Reciepient</p>
+                    <input placeholder="your session">
+                </div>
+
+                <!--<a href="#banner" class="order_btn">Done</a>-->
+
+            </form>
+
+        </div>
+        <br>
+        <br>
+
+        <!--Delivery Info-->
+           <h1 style="background-color: #2d4d04; color:#a05b01;
+         text-align: center;">Delivery</h1>
+         <br>
+          <p style="background-color: #e9d7d3e7; padding:1rem ;"> Hello cherished customer, 
+          Your order would be made ready and available at the school's graduation grounds on your
+           exact graduation day for you to pick up or gift your Graduate. This is so our clients don't have to worry, but have 
+           a beautiful stress-free event. You can arrange for your pickup before the D-day as well.</p>
+
+       
+
+          <br>
+
+        <!-- Payment Method-->
+        <br>
+        <h1 style="background-color: #2d4d04; color:#a05b01;
+         text-align: center;">Payment methods</h1>
+         <br>
+         <ol>
+          <button style="margin-left: 32% ;" onclick=" alert('0533384023\nakua ayisibea awotwi');  ">Mobile money</button>
+
+         <button onclick="alert('Not Available yet\nUse Mobile Money');"  >Bank Transfer</button>
+         <br>
+         <br>
+         </ol>
+            <input type="text" placeholder="type name on account"
+         style="margin-left: 32%;  ">
+         <br>
+         <br>
+
+           <p  style="background-color: rgba(240, 248, 255, 0.842);padding:1rem ;">Dear cherished customer, You will recieve a unique tracking number that makes your order quite special. 
+          A unique tracking number boost processing time and enables us to track your Product 
+          all the way to your door step</p>
+            <br>
+             <p style="background-color: rgba(240, 248, 255, 0.842);
+        text-align: center;">Your Order will be confirmed only after 
+          Payment has been made and confirmed.</p>
+         <br>
+         <br>
+          <br>
+
+     <!-- PROMO BANNER -->
+              <section class="section banner" id="banner">
+      <div class="left">
+        <div>
+           <h1 style="background-color:
+             rgba(240, 248, 255, 0.582); text-align: left;">Check Out</h1>
+            <h1 style="background-color: #2d4d04; color:#a05b01; text-align: left;"> Final step</h1>
+            <br>
+            <p style="text-align: left;">kindly confirm your order with <br> your unique tracking number,
+              this  <br> page will automatically generate <br> a reciept</p>
+              <br>
+
+           <input type="text" placeholder="kindly create a unique 
+           code;" style="margin-left: 6%;">
+           <br>
+           <br>
+
+           <p style="text-align:left;">Click print order to print
+             reciept,<br> Our Whatsapp page will <br> 
+             automatically open to recieve <br> your reciept. </p>
+
+             <br>
+
+        </div>
+      </div>
+                    <div class="right">
+                    <img src="./images/banner1.jpg" alt="">
+                    </div>
+          </section>
+          <br>
+          <br>
+
+            <!-- PRINT AND WHATSAPP BTNS-->
+             <div style="align-items: center; text-align: center;">
+              <button class="co-btn" onclick="window.print();">Print <br> Order </button>
+
+
+                <a href="https://wa.me/message/JDKXHSOEPJQ6E1" target="_blank"> 
+             <button style="width: 50%; margin-bottom:1%; color: green; ">
+                <!--<button class="order_btn">-->
+               Send <br> Whatsapp </button></a> 
+            </div>
+
+          <br>
+          <br>
+          
+
+          <!-- check Out -->
+            <div style="align-items: center; text-align: center;">
+           
+            <h1 style="background-color: #2d4d04; color:#a05b01; text-align: center;" id="About">About Us</h1>
+            <br>
+            <p style="background-color:
+             #e9d7d3e7; text-align: center; padding:2rem ;">We are a team of passionate, creative, hard working students and 
+             alumni who enjoy what we do and genuinely want to inspire others through our craft. We understand the difficulties, 
+             and we're glad to aid our colleagues, their loved ones celebrate the successful journey, and create joyful and memorable
+              monents, in convenience and ease.   </p>
+              <br>
+           
+             <p style="background-color: rgba(240, 248, 255, 0.582); text-align: center;">
+              Thank You for Your Order.</p>
+            <br> 
+            <div  style="background-color:
+             #e9d7d3e7;">
+           <br>
+       
+        
+         <a href="https://wa.me/message/JDKXHSOEPJQ6E1" target="_blank" id="Contact"> 
+             <button style="width: 50%; margin-bottom:1%;  background-color: green; color: white;" onclick=" alert('Congratulations');  " > 
+               Send <br> Whatsapp </button></a>
+            </div>
+            
+            <br>
+            <br>
+              
+            <br>
+            <br>
+                <b><p style="text-align: center; ">Copyright&copy;2026</p></b>
+     </div>
+            <!--endOrderForm-->
+            <br>
+            <br>
+            <br>
+            
+            
+            
+
+            
+         
+                   
+
+
+       </body>
