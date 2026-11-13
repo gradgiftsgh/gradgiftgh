@@ -6,6 +6,7 @@
   --grey1: #f0f0f0;
   --grey2: #e9d7d3;
   --purple  : #b145f0; 
+ --gold: #f78f06;
 }
 
 /* Basic Reset */
@@ -175,7 +176,7 @@ Home Slider
 }*/
   .home #prev,.home #next{
       position: absolute;
-      top: 75%;
+      top: 85%;
       transform: translateY(-50%);
       z-index: 100;
       height: 5rem;
@@ -411,13 +412,26 @@ Item Display
   .banner {
   position: relative;
   background-color: var(--grey2);
-  padding: 5rem 5%;
+  padding: 3rem 3%;
  
 }
+.banner .trend,
+.banner p {
+  display: block;
+  font-size: 2rem;
+  font-weight: 150;
+  margin-bottom: 1.5rem;
+}
+/*.banner h2 {
+  font-size: 4.4rem;
+  color: var(--black);
+  margin-bottom: 1.5rem;
+  text-align: left;
+}*/
 
 .banner .right img {
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   right: 10%;
   /*width: 75rem;*/
   width: 45rem;
@@ -453,13 +467,17 @@ Item Display
     grid-template-columns: 1fr;
     height: 30%;
   }
+   .banner .left {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
   .banner .right {
     flex: 0 0 50%;
   }
 
   .banner .right img {
     right: 0;
-    width: 50rem;
+    width: 30rem;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -475,9 +493,17 @@ Item Display
     font-size: 1.5rem;
     margin-bottom: .5rem;
   }
-   .banner h1 {
-    font-size: 3rem;
+   /*.banner h2 {
+    font-size: 2.3rem;
     margin-bottom: .5rem;
+    right:80% ;
+    text-align: left;
+  }*/
+  
+  .banner .left {
+    width: 80%;
+    margin-bottom: 1rem;
+    text-align: left;
   }
   
   .banner .right img {
@@ -485,8 +511,7 @@ Item Display
     width: 23rem;
     height:93% ;
     left: 73%;
-    
-    
+     
   }
 }
  .co-btn{
