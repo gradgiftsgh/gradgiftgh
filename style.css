@@ -434,7 +434,7 @@ Item Display
   bottom: 1rem;
   right: 10%;
   /*width: 75rem;*/
-  width: 45rem;
+  width: 30rem;
   height: 100%;
 }
 
@@ -508,9 +508,9 @@ Item Display
   
   .banner .right img {
     /*width: 45rem;*/
-    width: 23rem;
+    width: 19rem;
     height:93% ;
-    left: 73%;
+    left: 80%;
      
   }
 }
