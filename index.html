@@ -1,16 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+    <head>
+        <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="style.css" />
-    <title>GradGiftsGh order page</title>
-  </head>
-   <body>
-    <img class="bg-image" src="./images/background 5.jpg">
+    <title>GradGiftsGh order page</title> 
+    </head>
+
+         <body>
+        <img class="bg-image" src="./images/background 1.jpg">
+
     <!-- Header -->
     <header class="header" id="header">
       <!-- Top Nav -->
@@ -49,30 +51,115 @@
       <br>
       <br>
      
-      <p style="font-size: 1.7rem; background-color: rgba(240, 248, 255, 0.582);"> With Graduation just around the corner, we're here
+      <p style="font-size: 1.7rem; background:palegoldenrod;"> With Graduation just around the corner, we're here
                  to help you Stand Out and make preparation way easier! </p>
        </header>
        <br>
       <br>
+
+        
+                                            <!-- card animation here-->
+                                             <h3 id="ready">How ready are you?</h3>
+    <div class="carousel">
+
+                    <div class="group">
+                                <div class="cards"> <img src="./images/popchamp.jpg"></div>    
+                                <div class="cards"> <img src="./images/cap did it.jpg"></div>    
+                                <div class="cards"> <img src="./images/gradm 2.jpg"></div>    
+                                <div class="cards"> <img src="./images/grad cap.jpg"></div>    
+                                <div class="cards"> <img src="./images/Bouq Grad.jpg"></div> 
+         
+                    </div>
+
+                      <div aria-hidden class="group">
+                                <div class="cards"> <img src="./images/popchamp.jpg"></div>
+                                <div class="cards"> <img src="./images/cap did it.jpg"></div>    
+                                <div class="cards"> <img src="./images/gradm 2.jpg"></div>        
+                              <div class="cards">  <img src="./images/grad cap.jpg"></div>    
+                                <div class="cards"> <img src="./images/Bouq Grad.jpg"> </div>  
+                    </div>
+      
+      
+
+    </div>
+
+                                            <!-- card animation here-->
+
+       <br>
+      <br>
+      <br>
+            <!-- Graduates Corner Categories Section -->
+    <section class="section-category">
+      <div class="banner">
+       <h1 style="font-size: 2rem; padding: 0.5rem; text-align: center; color:grey"><b>
+                   <i> Grad Specialty </i></b>
+                  </h1>
+                  <p>Custom Toppers for your School Grad Caps</p>
+      <div class="cat-center">
+        <div class="cat">
+          <img src="./images/Grad Cap1 edit.jpg" alt="" />
+           <div>
+            <p onclick="addToCart('Message topper',180)">Message Focused <br> 180ghc</p>
+          </div>
+        </div>
+        
+        <div class="cat">
+          <img src="./images/gradcap decor.jpg" alt="" />
+          <div>
+            <p onclick="addToCart('Decor topper',250)">Decor Focused<br> 250ghc</p>
+          </div>
+        </div>
+        <!--<div class="cat">
+          <img src="./images/Trunk surprise.jpg" alt="" />
+          <div>
+            <p onclick="addToCart('Item 13',300)">CAR SURPRISE</p>
+          </div>
+        </div>-->
+      </div>
+      </div>
+    </section>
+    <br>
+    <br>
+                 <!--<h1 style="font-size: 1.9rem ; text-align: center;"><b>
+                    Grad Specialty</b>
+                  </h1>
+                 <div class="friends">
+                  <div class="item">
+                    <img src="./images/Scrunchies.jpg" alt="Item 1">
+                    <h3> Scrunchies </h3>
+                    <p>(3 pieces)</p>
+                    <p>Price: GHS 30</p>
+                    <button onclick="addToCart('Scrunchies', 30)">Add to Cart</button>
+                   </div>
+
+                 <div class="item">
+                    <img src="./images/Thank you card.jpg" alt="Item 2">
+                    <h3>Customised Card</h3>
+                    <p>Price: GHS 75</p>
+                    <button onclick="addToCart('Friend Card', 75)">Add to Cart</button>
+                 </div>
+              </div>-->
+      
        <section class="home" id="home">
         <div class="straight-line">
              <div id="prev" onclick="prev();">-</div>
              <div id="next" onclick="next();">+</div>
         </div>
-        <h1 style="text-align: center; background-color: #2d4d04; color:#f78f06;">Graduation Gift Store</h1>
+        <h2 style="text-align: center; background-color: #2d4d04; color:#f78f06;">Graduation Gift Store</h2>
         <br>
       <div class="title">
         <h3>Pick Your Combo</h3>
        <p>Packages carefully curated just for you. </p>
         <br>
-        <i><p  style="background-color: rgba(240, 248, 255, 0.582);"> All Gifts would be made available at the graduation grounds ready 
+        <i><p  style="background-color:palegoldenrod;"> All Gifts would be made available at the graduation grounds ready 
           for you to present to your Graduate! We handle everything, so you 
         don't have to stress.</p></i>
         </div>
+        
       <div class="slide-container active" id="slide1">
         <div class="slide">
             <div class="container">
-              <h3 style="text-align: center;" id="Shop">Celebratory Gifts</h3>
+              <h3 style="text-align: center;padding: 2rem;" id="Shop">Celebratory Gifts</h3>
                 <div class="item">
                     <img src="./images/fBouquet.jpg" alt="Item 3">
                     <h3> Flower Bouquet</h3>
@@ -80,7 +167,7 @@
                     <button id="added" onclick="addToCart('Flower Bouquet', 250)">Add to Cart</button>
                 </div>
 
-                  <div class="item">
+                  <div class="item" style="background-color:#f1e7da;">
                     <img src="./images/bobo balloon.jpg" alt="Item 1">
                     <h3>Balloon Bouquet</h3>
                     <p>(with flowers and snacks)</p>
@@ -96,7 +183,7 @@
                     <button id="added" onclick="addToCart('Grad Cap', 270)">Add to Cart</button>
                 </div>
 
-                <div class="item">
+                <div class="item"  style="background-color:#f1e7da;">
                     <img src="./images/balloon hamper2.jpg" alt="Item 2">
                     <h3>Balloon Hamper</h3>
                     <p>(with Champagne and snacks)</p>
@@ -112,7 +199,7 @@
                     <button id="added" onclick="addToCart('Card', 75)">Add to Cart</button>
                 </div>
 
-                 <div class="item">
+                 <div class="item" style="background-color:#f1e7da;">
                     <img src="./images/wrapped balloon.jpg" alt="Item 5">
                     <h3>Balloon Bouquet Gift</h3>
                     <p>(Wrapped without box)</p>
@@ -132,7 +219,7 @@
         <div class="slide">
             <div class="container">
               <h3 style="text-align: center;">Sweet Gifts</h3>
-                <div class="item">
+                <div class="item" style="background-color:#f1e7da;">
                     <img src="./images/cake.jpg" alt="Item 1">
                     <h3>Cake</h3>
                     <p>Price: GHS 350</p>
@@ -146,7 +233,7 @@
                     <button id="added" onclick="addToCart('Chocolate Bouquet', 320)">Add to Cart</button>
                 </div>
 
-                <div class="item">
+                <div class="item" style="background-color:#f1e7da;">
                     <img src="./images/champagne.jpg" alt="Item 3">
                     <h3>Champagne Gift</h3>
                     <p>Price: GHS 100</p>
@@ -154,11 +241,11 @@
                 </div>
                 
                 <div class="item">
-                    <img src="./images/bouquet hamper.jpg" alt="Item 4">
+                    <img src="./images/hamper.jpg" alt="Item 4">
                     <h3>Bouquet Hamper</h3>
                     <p>(variety of items)</p>
-                    <p>Price: GHS 400</p>
-                    <button id="added" onclick="addToCart('Bouquet Hamper', 400)">Add to Cart</button>
+                    <p>Price: GHS 450</p>
+                    <button id="added" onclick="addToCart('hamper', 450)">Add to Cart</button>
                 </div>
             </div>
         </div> 
@@ -174,7 +261,7 @@
                     <button id="added" onclick="addToCart('Money Box', 220)">Add to Cart</button>
                 </div>
 
-                <div class="item">
+                <div class="item" style="background-color:#f1e7da;">
                     <img src="./images/dummy cheque.jpg" alt="Item 2">
                     <h3>Money Cheque</h3>
                     <p>Price: GHS 280</p>
@@ -237,10 +324,10 @@
      
       <!-- Friends Section -->
                 <div class="title">
-                  <h1 style="font-size: 1.5rem ; color:#b145f0; ">
-                    Celebrate Friendships
+                  <h1 style="font-size: 1.5rem ; text-align: center; color:#b145f0; "><b>
+                    Celebrate Friendships</b>
                   </h1>
-                  <p  style="background-color: rgba(240, 248, 255, 0.842);">Show your amazing friends how much you love 
+                  <p  style="background-color:#e9d7d3b7;">Show your amazing friends how much you love 
                     and appreciate them for being a part of your journey!</p>
                 </div>
                  <div class="friends">
@@ -309,7 +396,7 @@
          <!--orderForm -->
      <div class="order" id="Order">
             <h2><span>Delivery</span>Form</h2>
-            <p style="background-color: rgba(240, 248, 255, 0.582); text-align: center;">
+            <p style="background-color:  #e9d7d3e7;; text-align: center;">
               Please fill out the document below to finalize your order</p>
 
         <div class="order_main">
@@ -385,15 +472,16 @@
         <h2 style="background-color: #2d4d04; color:#f78f06;
          text-align: center;">Payment methods</h2>
          <br>
+          <div style="background-color: palegoldenrod; padding: 2rem;">
          <ol>
-          <button style="margin-left: 30% ;" onclick=" alert('0533384023\nakua ayisibea awotwi');  ">Mobile money</button>
+          <button style="margin-left:30%;background-color:#6cbe02;color:white;padding: 1rem;" onclick=" alert('0533384023\nakua ayisibea awotwi');  ">Mobile money</button>
 
-         <button onclick="alert('Not Available yet\nUse Mobile Money');"  >Bank Transfer</button>
+         <button style="background-color:#6cbe02; color:white; padding: 1rem;" onclick="alert('Not Available yet\nUse Mobile Money');"  >Bank Transfer</button>
          <br>
          <br>
          </ol>
             <input type="text" placeholder="type name on account"
-         style="margin-left: 30%;  ">
+         style="margin-left: 33%;  ">
          <br>
          <br>
 
@@ -404,6 +492,7 @@
              <p style="background-color: rgba(240, 248, 255, 0.842);
         text-align: center;">Your Order will be confirmed only after 
           Payment has been made and confirmed.</p>
+           </div>
          <br>
          <br>
           <br>
@@ -467,16 +556,16 @@
              <br> We understand the difficulties, 
              and we're glad to aid our colleagues, their loved ones celebrate the successful journey, and create joyful and memorable
               moments, in convenience and ease.   </p>
-              <br>
-           
-             <p style="background-color: rgba(240, 248, 255, 0.582); text-align: center; padding: 2rem;">
-              Thank You for Your Order.</p>
+            <br>
+             <p style="background-color: palegoldenrod; text-align: center; padding: 2rem;">
+             <b> <i> Thank You for Your Order!</i></b></p>
             <br> 
+          
+
+            
             <div  style="background-color:
              #e9d7d3e7;">
            <br>
-       
-        
          <a href="https://wa.me/message/JDKXHSOEPJQ6E1" target="_blank" id="Contact"> 
              <button style="width: 50%; margin-bottom:3%;  background-color: green; color: white;" onclick=" alert('Congratulations');  " > 
                Send <br> Whatsapp </button></a>
@@ -499,7 +588,4 @@
 
             
          
-                   
-
-
-       </body>
+         </body>
