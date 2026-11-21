@@ -77,8 +77,9 @@ Header
 
 .top-nav {
   background-color: var(--green);
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: var(--white);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .top-nav div {
@@ -106,10 +107,6 @@ Navigation
 
 .nav-center {
   justify-content: space-between;
-}
-
-.nav-list .icons {
-  display: none;
 }
 
 .nav-center .nav-item:not(:last-child) {
@@ -228,6 +225,7 @@ Navigation
   margin: auto;
   object-fit: cover;
   transition: all 2s ease;
+   border: .01rem solid #6cbe02;
 }
 
 .cat-center .cat:hover img {
@@ -247,6 +245,8 @@ Navigation
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
+  border-radius: 7%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -335,7 +335,7 @@ Home Slider
   }
   .home #prev,.home #next{
       position: absolute;
-      top: 105%;
+      top: 125%;
       transform: translateY(-50%);
       z-index: 100;
       height: 5rem;
@@ -345,6 +345,7 @@ Home Slider
       color: #e9d7d3;
       background-color:#914e21; /*#4d0857; #0c383a; ;/*#a08301;/* #b888c2; #2980b9;  #b145f0; */ 
       border:.1rem thin #a08301;
+       box-shadow: 0 1px 5px#6cbe02;
       border-radius: 50%;
       text-align: center;
       cursor: pointer;
@@ -377,7 +378,12 @@ Item Display
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         text-align: center;
     }
-
+    #phighlight{
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    #phighlight:hover{
+    box-shadow: 0 1px 5px#6cbe02;
+    }
     .friends .item img {
         width: 100%;
         height: 180px;
@@ -412,11 +418,11 @@ Item Display
       margin: auto; 
       object-fit: cover;
       border-radius: 8px;
-      transition: all 1s ease;
+      transition: all 2s ease;
   }
-  /*.item:hover img {
+  .item:hover img {
   transform: scale(1.1);
-  }*/
+  }
 
   .item h3 {
       margin: 10px 0;
@@ -553,7 +559,7 @@ Item Display
         }
 
         .order .order_main form .input input:focus{
-            border: 2px solid #219150;
+            border: 2px solid #6cbe02;;
         }
 
         .order .order_main form .order_btn{
@@ -571,8 +577,12 @@ Item Display
   .banner {
   position: relative;
   background-color: var(--grey2);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   padding: 3rem 3%;
  
+}
+.banner:hover{
+box-shadow: 0 1px 8px#6cbe02;
 }
 .banner .trend,
 .banner p {
@@ -683,4 +693,12 @@ Item Display
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+  .co-btn:hover{
+  background:  green;
+
+  }
+  .co-btn1:hover{
+  background:  green;
+
   }
