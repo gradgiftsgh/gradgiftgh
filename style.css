@@ -335,7 +335,7 @@ Home Slider
   }
   .home #prev,.home #next{
       position: absolute;
-      top: 125%;
+      top: 129%;
       transform: translateY(-50%);
       z-index: 100;
       height: 5rem;
@@ -345,7 +345,7 @@ Home Slider
       color: #e9d7d3;
       background-color:#914e21; /*#4d0857; #0c383a; ;/*#a08301;/* #b888c2; #2980b9;  #b145f0; */ 
       border:.1rem thin #a08301;
-       box-shadow: 0 1px 5px#6cbe02;
+       box-shadow: 0 1px 3px#6cbe02;
       border-radius: 50%;
       text-align: center;
       cursor: pointer;
@@ -380,6 +380,8 @@ Item Display
     }
     #phighlight{
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        font-size: 1.4rem;
+        padding: 1rem;
     }
     #phighlight:hover{
     box-shadow: 0 1px 5px#6cbe02;
