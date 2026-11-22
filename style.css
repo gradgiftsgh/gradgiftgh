@@ -44,7 +44,7 @@ body #info{
 #ready{
   font-family: cursive;
   /*text-align: center;*/
-  margin-left: 10rem;
+  margin-left: 7rem;
 }
 
 a {
@@ -224,7 +224,7 @@ Navigation
 
 .cat-center .cat {
   max-width: 37rem;
-  min-width: 17rem;
+  min-width: 20rem;
   height: 15rem;
   overflow: hidden;
   position: relative;
@@ -257,7 +257,7 @@ Navigation
   transform: translateX(-50%);
   background-color: var(--white);
   color: gray;
-  width: 18rem;
+  width: 14rem;
   height: 4rem;
   line-height: 2rem;
   text-align: center;
@@ -392,7 +392,7 @@ Item Display
     .friends .item {
         background: white;
         max-width:150px;
-        min-width:100px;
+        min-width:115px;
         min-height:350px;
         padding: 15px;
         border-radius: 8px;
