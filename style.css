@@ -104,7 +104,8 @@ Header
 
 .top-nav a {
   color: var(--white);
-  padding: 0 0.8rem;
+  justify-content: space-between;
+  padding: 0 2rem;
 }
 .header p{
   text-align: center;
@@ -224,7 +225,7 @@ Navigation
 
 .cat-center .cat {
   max-width: 37rem;
-  min-width: 20rem;
+  min-width: 18rem;
   height: 15rem;
   overflow: hidden;
   position: relative;
@@ -392,7 +393,7 @@ Item Display
     .friends .item {
         background: white;
         max-width:150px;
-        min-width:115px;
+        min-width:120px;
         min-height:350px;
         padding: 15px;
         border-radius: 8px;
@@ -597,6 +598,8 @@ Item Display
             border-radius: 5px;
             cursor: pointer;
         }
+
+
          /* Banner */
   .banner {
   position: relative;
@@ -722,7 +725,4 @@ box-shadow: 0 1px 8px#6cbe02;
   background:  green;
 
   }
-  .co-btn1:hover{
-  background:  green;
-
-  }
+  
