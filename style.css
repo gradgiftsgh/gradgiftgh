@@ -43,6 +43,8 @@ body #info{
 }
 #ready{
   font-family: cursive;
+  /*text-align: center;*/
+  margin-left: 10rem;
 }
 
 a {
@@ -222,7 +224,7 @@ Navigation
 
 .cat-center .cat {
   max-width: 37rem;
-  min-width: 23rem;
+  min-width: 17rem;
   height: 15rem;
   overflow: hidden;
   position: relative;
@@ -390,6 +392,7 @@ Item Display
     .friends .item {
         background: white;
         max-width:150px;
+        min-width:100px;
         min-height:350px;
         padding: 15px;
         border-radius: 8px;
