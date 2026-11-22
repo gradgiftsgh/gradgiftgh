@@ -7,10 +7,11 @@
 
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="style.css" />
-    <title>GradGiftsGh order page</title> 
+    <title>GradGiftsGh Grad Store</title> 
     </head>
 
          <body>
+          <!--background-color: #2d4d04; color:#f78f06;-->
         <img class="bg-image" src="./images/background 1.jpg">
 
     <!-- Header -->
@@ -30,7 +31,7 @@
       <!--Lower Nav-->
       <div class="navigation">
         <div class="nav-center container d-flex">
-        <a href="#" class="logo"><h1>GradGiftsGh</h1></a >
+        <a href="#" class="logo" style="font-family:unset"><h1> GradGiftsGh</h1></a >
 
          <!--<ul class="nav-list d-flex">
            
@@ -42,16 +43,16 @@
          </div>
           
             <i>
-              <b><p style="background-color: #2d4d04; color:#f78f06; font-size: 2rem;box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                 Welcome to Our Self Service Store.</p></b></i>
+              <b><p style="background-color:mediumvioletred; color:gainsboro; font-size: 2rem; box-shadow: 0 1px 3px#6cbe02;">
+                 Welcome to Our Self Service Store</p></b></i>
          
       </div>
       <br>
       <br>
       <br>
-      <br>
+      
      
-      <p id="phighlight" style=" background:palegoldenrod;"> With Graduation just around the corner, we're here
+      <p id="phighlight" style=" background:palegoldenrod;color: grey; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> With Graduation just around the corner, we're here
                  to help you Stand Out and make preparation way easier! </p>
        </header>
        <br>
@@ -91,10 +92,10 @@
             <!-- Graduates Corner Categories Section -->
     <section class="section-category">
       <div class="banner">
-       <h1 style="font-size: 2rem; padding: 0.5rem; text-align: center; color:grey"><b>
+       <h1 style="font-size: 2rem; padding: 0.5rem; text-align: center; color:grey;"><b>
                    <i> Grad Specialty </i></b>
                   </h1>
-                  <p>Custom Toppers for your School Grad Caps</p>
+                  <p style="color:maroon; font-display: block;">Custom Toppers for your School Grad Caps</p>
       <div class="cat-center">
         <div class="cat">
           <img src="./images/Grad Cap1 edit.jpg" alt="" />
@@ -145,8 +146,7 @@
              <div id="prev" onclick="prev();">-</div>
              <div id="next" onclick="next();">+</div>
         </div>
-        <h2 style="text-align: center; background-color: #2d4d04; color:#f78f06;box-shadow: 0 2px 5px rgba(0,0,0,0.1);"
-        >Graduation Gift Store</h2>
+        <h2 id="info">Graduation Gift Store</h2>
         <br>
       <div class="title">
         <h3>Pick Your Combo</h3>
@@ -324,13 +324,14 @@
       <br>
      
       <!-- Friends Section -->
-                <div class="title">
+                <div class="title" >
+                  <div style=" background-color:#e9d7d3b7; padding: 1rem;">
                   <h1 style="font-size: 1.5rem ; text-align: center; color:#b145f0; "><b>
                     Celebrate Friendships</b>
                   </h1>
-                  <p id="phighlight" style="background-color:#e9d7d3b7;">Show your amazing friends how much you love 
+                  <p id="phighlight" style="background-color:#e9d7d3b7; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Show your amazing friends how much you love 
                     and appreciate them for being a part of your journey!</p>
-                
+                </div>
                  <div class="friends">
                   <div class="item">
                     <img src="./images/Scrunchies.jpg" alt="Item 1">
@@ -342,13 +343,13 @@
 
                  <div class="item">
                     <img src="./images/Thank you card.jpg" alt="Item 2">
-                    <h3>Customised Card</h3>
+                    <h3>Customised<br> Card</h3>
                     <p>Price: GHS 75</p>
                     <button onclick="addToCart('Friend Card', 75)">Add to Cart</button>
                  </div>
               </div>
             </div>
-<p id="phighlight" style="background-color:palegoldenrod; padding: 1rem;"> All Gifts would be made available at the graduation grounds ready 
+<p id="phighlight" style="background-color:palegoldenrod; padding: 1rem;color: grey; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> All Gifts would be made available at the graduation grounds ready 
           for you to present to your Graduate! We handle everything, so you 
         don't have to stress.</p>
 
@@ -458,35 +459,33 @@
         <br>
         <br>
              <!--Delivery Info-->
-           <h2 style="background-color: #2d4d04; color:#f78f06;
-         text-align: center;  box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Delivery</h2>
+           <h2 id="info">Delivery</h2>
          <br>
-          <p style="background-color: #e9d7d3e7; padding:2rem ; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"> Dear cherished customer,<br>
+          <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:gray ; background-color: #e9d7d3e7; padding:2rem ; text-align: center;color:slategray; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"> Hello cherished customer!<br>
           Your order would be made ready and available at the school's graduation grounds on your
-           exact Graduation day for you to pick up or Gift your Graduate.<br><br>This is so our clients don't have to worry, but have 
+           exact Graduation day for you to pick up or Gift your Graduate.<br>This is so our clients don't have to worry, but have 
            a beautiful stress-free event. You can arrange for your pickup before the D-day as well.</p>
           <br>
           <br>
 
         <!-- Payment Method-->
         <br>
-        <h2 style="background-color: #2d4d04; color:#f78f06;
-         text-align: center;  box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Payment methods</h2>
+        <h2 id="info">Payment methods</h2>
          <br>
           <div style="background-color: palegoldenrod; padding: 2rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
          <ol>
-          <button style="margin-left:23%;background-color:#6cbe02;color:white;padding: 1rem;" onclick=" alert('0533384023\nakua ayisibea awotwi');  ">Mobile money</button>
+          <button style="margin-left:21%;background-color:#6cbe02;color:white;padding: 1rem;" onclick=" alert('0533384023\nakua ayisibea awotwi');  ">Mobile money</button>
 
          <button style="background-color:#6cbe02; color:white; padding: 1rem;" onclick="alert('Not Available yet\nUse Mobile Money');"  >Bank Transfer</button>
          <br>
          <br>
          </ol>
             <input type="text" placeholder="type name on account"
-         style="margin-left: 26%; box-shadow: 0 1px 2px#6cbe02; ">
+         style="margin-left: 24%; box-shadow: 0 1px 2px#6cbe02; ">
          <br>
          <br>
 
-           <p style="background-color: rgba(240, 248, 255, 0.842);padding:2rem ;box-shadow: 0 1px 6px#6cbe02;">Hello cherished customer,<br>You will recieve a unique tracking number that makes your order quite special. 
+           <p style="color: grey; background-color: rgba(240, 248, 255, 0.842);padding:2rem ;box-shadow: 0 1px 6px#6cbe02;">Dear cherished customer,<br>You will recieve a unique tracking number that makes your order quite special. 
          <br> A unique tracking number boost processing time and enables us to track your Products 
           all the way to your door step</p>
             <br>
@@ -504,19 +503,21 @@
      <!-- PROMO BANNER -->
        <h2 style="background-color:
         rgba(240, 248, 255, 0.582); text-align: left;  box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Check Out</h2>
-    <h2 style="background-color: #2d4d04; color:#f78f06; text-align: left;  box-shadow: 0 2px 5px rgba(0,0,0,0.1);"> Final step</h2>
+    <h2 id="info"> Final step</h2>
               <section class="banner" id="banner">
                 
 <div class="left">
    
     
-    <p style="text-align: left; background-color: rgba(240, 248, 255, 0.582); padding: 1rem;box-shadow: 0 1px 6px#6cbe02;">kindly confirm your order with <br> your unique tracking number, <br>  This page will automatically  <br> generate a receipt</p>
+    <p style="text-align: left; color: grey; background-color: rgba(240, 248, 255, 0.582); padding: 1rem;box-shadow: 0 1px 6px#6cbe02;
+    ">kindly confirm your order with <br> your unique tracking number, <br>  This page will automatically  <br> generate a receipt</p>
      <br> 
 
     <input class="trend" type="text" placeholder="kindly create a unique code" style="margin-left: 2%;box-shadow: 0 1px 2px#6cbe02; ">
     <br>
         
-    <p style="text-align:left;background-color: rgba(240, 248, 255, 0.582); padding: 1rem;box-shadow: 0 1px 6px#6cbe02; ">Click print order to print
+    <p style="text-align:left;color: grey; background-color: rgba(240, 248, 255, 0.582); padding: 1rem;box-shadow: 0 1px 6px#6cbe02; 
+    ">Click print order to print
         receipt,<br> Our Whatsapp page will <br> 
         automatically open to receive <br> your receipt. </p>
 
@@ -550,13 +551,13 @@
           <!-- check Out -->
             <div style="align-items: center; text-align: center;">
            
-            <h2 style="background-color: #2d4d04; color:#f78f06; text-align: center;  box-shadow: 0 2px 5px rgba(0,0,0,0.1);" id="About">About Us</h2>
+            <h2 id="info" id="About">About Us</h2>
             <br>
-            <p style="background-color:
+            <p style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color:darkslategray; background-color:
              #e9d7d3e7; text-align: center; padding:2rem ; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">We are a team of passionate, creative, hard working students and 
              alumni who enjoy what we do and genuinely want to inspire others through our craft.
              <br> We understand the difficulties, 
-             and we're glad to aid our colleagues and their loved ones celebrate the successful journey, and create joyful and memorable
+             and we're glad to aid our colleagues,their loved ones celebrate the successful journey, and create joyful and memorable
               moments, in convenience and ease.   </p>
             <br>
              <p style="background-color: palegoldenrod; text-align: center; padding: 2rem; box-shadow: 0 1px 1px#6cbe02; ">

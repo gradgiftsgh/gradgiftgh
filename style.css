@@ -20,7 +20,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 52.5%;
+  font-size: 51.5%;
 }
 
 body {
@@ -30,6 +30,19 @@ body {
   color: var(--black);
   font-weight: 400;
   font-style: normal;
+}
+body #info{
+  font-family:inherit;
+  /*box-shadow: 0 1px 5px black;*/
+   box-shadow: 0 1px 3px#6cbe02;
+  text-align: center;
+  background-color:mediumvioletred; 
+  color:#e7c291;
+  padding:1rem;
+  /*box-shadow: 0 2px 5px rgba(0,0,0,0.1);*/
+}
+#ready{
+  font-family: cursive;
 }
 
 a {
@@ -163,13 +176,14 @@ Navigation
     .cards {
     flex: 0 0 5em;
     height: 5em;
-    padding: 0.3em;
+    padding: 0.1em;
     background: rgba(237, 150, 100, 0.479);
     font-size: 3rm;
     object-fit: cover;
     border-radius:.2rm;
     text-align: center;
     align-content: center;
+    box-shadow: 0 1px 3px#6cbe02;
     }
 
     @keyframes spin {
@@ -208,11 +222,13 @@ Navigation
 
 .cat-center .cat {
   max-width: 37rem;
+  min-width: 23rem;
   height: 15rem;
   overflow: hidden;
   position: relative;
   cursor: pointer;
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .cat-center .cat:not(:last-child) {
@@ -220,7 +236,7 @@ Navigation
 }
 
 .cat-center .cat img {
-  width: 22rem;
+  width: 20rem;
   height: 100%;
   margin: auto;
   object-fit: cover;
@@ -277,13 +293,13 @@ Navigation
   }
 
   .cat-center .cat {
-    max-width:60%;
+    max-width:50%;
     height: 25rem;
   }
 
   .cat-center .cat:not(:last-child) {
     
-    margin-right: 2rem;
+    margin-right: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
@@ -345,7 +361,7 @@ Home Slider
       color: #e9d7d3;
       background-color:#914e21; /*#4d0857; #0c383a; ;/*#a08301;/* #b888c2; #2980b9;  #b145f0; */ 
       border:.1rem thin #a08301;
-       box-shadow: 0 1px 3px#6cbe02;
+      box-shadow: 0 1px 3px#6cbe02;
       border-radius: 50%;
       text-align: center;
       cursor: pointer;
@@ -373,6 +389,8 @@ Item Display
  
     .friends .item {
         background: white;
+        max-width:150px;
+        min-height:350px;
         padding: 15px;
         border-radius: 8px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -388,6 +406,7 @@ Item Display
     }
     .friends .item img {
         width: 100%;
+        
         height: 180px;
         object-fit: cover;
         border-radius: 8px;
@@ -605,7 +624,7 @@ box-shadow: 0 1px 8px#6cbe02;
   bottom: 1rem;
   right: 10%;
   /*width: 75rem;*/
-  width: 30rem;
+  width: 28rem;
   height: 100%;
 }
 
@@ -679,8 +698,8 @@ box-shadow: 0 1px 8px#6cbe02;
   
   .banner .right img {
     /*width: 45rem;*/
-    width: 19rem;
-    height:93% ;
+    width: 18rem;
+    height:92% ;
     left: 80%;
      
   }
